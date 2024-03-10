@@ -17,8 +17,8 @@ class App extends Component {
         <Route path='/sports' element={<News key="sports" country = "in" category="sports"/>}/>
         <Route path='/entertainment' element={<News  key="entertainment" country = "in" category="entertainment"/>}/>
         <Route path='/business' element={<News key="business"  country = "in" category="business"/>}/>
-        <Route path='/health' element={<News  key="health" country = "in" category="health"/>}/>
-        <Route path='/science' element={<News  key="science" country = "in" category="science"/>}/>
+        <Route path='/health' element={<News key="health" country = "in" category="health"/>}/>
+        <Route path='/science' element={<News key="science" country = "in" category="science"/>}/>
         <Route path='/technology' element={<News key="technology"  country = "in" category="technology"/>}/>
         
 
